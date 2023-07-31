@@ -1,4 +1,22 @@
-// // HTML 안에 새로운 ul > li 만들기
+// 구구단 풀이
+const dan2 = document.querySelector('#dan2') // 2단 고정 input
+const calc = document.querySelector('#calc') // 계산식
+const result = document.querySelector('#result') // 결과 출력 input 
+console.log(dan2, calc, result)
+console.log(typeof(dan2.value), typeof(calc.value))
+console.log(`2*2=${'2'*'2'}, 2+2=${'2'+'2'}`)
+// 연산자 좌우 피연산자가 문자데이터일 경우
+// 더하기 연산자(+) >> 문자+문자=문자로 연결결과로 보여준다.
+// 나머지 연산자(-,*,/,%) >> 문자*문자=숫자 결과로 보여준다.
+
+test.addEventListener('click',function(){
+    let first = Number(dan2.value)
+    let last = Number(calc.value)
+    result.value = first*last
+    console.log(first, last, first*last)
+})
+
+// HTML 안에 새로운 ul > li 만들기
 let danNewLi = document.createElement('ul');
 const contents = document.querySelector('.dan_box .contents');
 let a = 2

@@ -15,7 +15,7 @@
             <h1>적정체중 계산기</h1>
             <form action="#" method="get">
                 <fieldset>
-                    <legend>계산기 양식</legend>
+                    <legend class="skip">계산기 양식</legend>
                     <ul>
                         <li>
                             <h2>신장</h2>
@@ -26,21 +26,16 @@
                         </li>
                         <li>
                             <h2>체중</h2>
-                            <div class="height_box">
-                                <input type="text" name="height" id="weight">
+                            <div class="weight_box">
+                                <input type="text" name="weight" id="weight">
                                 <span>kg</span>
                             </div>
                         </li>
-                        <li>
-                            <h2>나이</h2>
-                            <div class="height_box">
-                                <input type="text" name="height" id="age">
-                                <span>세</span>
-                            </div>
-                        </li>
                     </ul>
-                    <button type="submit">계산</button>
-                    <button type="reset">초기화</button>
+                    <div class="btn">
+                        <button type="submit">계산</button>
+                        <button type="reset">초기화</button>
+                    </div>
                 </fieldset>
             </form>
         </div>

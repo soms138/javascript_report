@@ -1,0 +1,27 @@
+main {
+    background: #001CAD;
+}
+.wrap {
+    background: url(../);
+}
+.wrap h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.wrap form {}
+.wrap form fieldset {}
+.wrap form fieldset legend {}
+.wrap form fieldset ul {}
+.wrap form fieldset ul li {}
+.wrap form fieldset ul li h2 {
+    color: #fff;
+}
+.wrap form fieldset ul li div {}
+.wrap form fieldset ul li div input {}
+.wrap form fieldset ul li div span {
+    color: #fff;
+}
+.wrap form fieldset .btn button {}
+.wrap form fieldset .btn button:first-child {}
+.wrap form fieldset .btn button:last-child {}

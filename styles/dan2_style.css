@@ -1,0 +1,18 @@
+body {
+    background: url(../images/bg3.png) repeat;
+    background-size: cover;
+}
+main {
+    margin: 0 auto;
+}
+.dan_box {}
+.dan_box .title {}
+.dan_box .title h1 {}
+.dan_box .title p {}
+.dan_box .title p img {}
+.dan_box .test_box {}
+.dan_box .test_box .input {}
+.dan_box .test_box .input #dan2 {}
+.dan_box .test_box .input #calc {}
+.dan_box .test_box .input #result {}
+.dan_box .test_box #test {}
